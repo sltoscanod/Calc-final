@@ -23,10 +23,9 @@ def main_menu():
 
     os.system("CLS")
 
-    print("******************************** CALCULADORA ********************************")
-
     option = None
     while option != 4 or option is None:
+        print("******************************** CALCULADORA ********************************")
         print("1.- Multiplicar en orden")
         print("2.- Multiplicar con numeros aleatorios")
         print("3.- Score")
